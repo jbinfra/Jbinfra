@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JB Infra Group | Premium Plots Hyderabad</title>
+
+<style>
+body {margin:0; font-family:Arial;}
+header {background:#fff; padding:10px; text-align:center;}
+header img {max-width:200px;}
+.banner img {width:100%;}
+section {padding:20px;}
+h2 {text-align:center;}
+.project img {width:100%; margin:10px 0; border-radius:10px;}
+.btn {background:#ff6600; color:white; padding:12px; display:inline-block; text-decoration:none; border-radius:5px;}
+form input, form textarea {width:100%; padding:10px; margin:5px 0;}
+button {background:#0d47a1; color:white; padding:12px; border:none; width:100%;}
+footer {background:#222; color:white; text-align:center; padding:20px;}
+.whatsapp {position:fixed; bottom:20px; right:20px; background:green; color:white; padding:12px; border-radius:50px;}
+.call {position:fixed; bottom:80px; right:20px; background:#0d47a1; color:white; padding:12px; border-radius:50px;}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+<img src="logo.png">
+<h3>HMDA | DTCP | FCDA | RERA Approved Premium Plots</h3>
+<p>📞 +91 6281812325</p>
+</header>
+
+<div class="banner">
+<img src="nature.png">
+</div>
+
+<section>
+<h2>Premium Projects</h2>
+
+<div class="project">
+<img src="pristine.png">
+</div>
+
+<div class="project">
+<img src="serene.png">
+</div>
+
+<div class="project">
+<img src="harmony.png">
+</div>
+
+</section>
+
+<section>
+<h2>Why Choose JB Infra</h2>
+
+<ul>
+<li>HMDA, DTCP, FCDA & RERA Approved</li>
+<li>Clear Title Projects</li>
+<li>Premium Amenities & Developments</li>
+<li>High Growth Investment Locations</li>
+<li>Club House, Parks & Infrastructure</li>
+</ul>
+
+</section>
+
+<section>
+<h2>Locations</h2>
+
+<p><b>Choutuppal</b> - <a href="https://maps.app.goo.gl/wz6Likco2ZCvRGR66">View Map</a></p>
+<p><b>Ibrahimpatnam</b> - <a href="https://maps.app.goo.gl/61dhugCehuqr9NPLA">View Map</a></p>
+<p><b>Vikarabad</b> - <a href="https://maps.app.goo.gl/up7yd2AAMva1docP9">View Map</a></p>
+<p><b>Kongarkhalan</b> - <a href="https://maps.app.goo.gl/ioY559oPWXn9iRwS7">View Map</a></p>
+<p><b>Mangalpally</b> - <a href="https://maps.app.goo.gl/R7t1z4U32EGSVLH86">View Map</a></p>
+<p><b>Thummallur</b> - <a href="https://maps.app.goo.gl/UEx7ttx3hBPoHMrr6">View Map</a></p>
+
+</section>
+
+<section id="form">
+<h2>Book Site Visit</h2>
+
+<form id="contact-form">
+
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="tel" name="phone" placeholder="Mobile Number" required>
+<input type="email" name="email" placeholder="Email ID">
+<input type="text" name="location" placeholder="Preferred Location">
+<input type="text" name="occupation" placeholder="Occupation">
+<textarea name="message" placeholder="Requirement"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>📞 +91 6281812325</p>
+<p>📧 jbinfra.sales25@gmail.com</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/916281812325">WhatsApp</a>
+<a class="call" href="tel:916281812325">Call</a>
+
+<script>
+(function(){
+emailjs.init("sYVIQdIsjazjCPjZf");
+})();
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+e.preventDefault();
+
+emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+.then(function() {
+alert('Thank you! We will contact you shortly.');
+}, function(error) {
+alert('Error! Try again.');
+});
+});
+</script>
+
+</body>
+</html>
